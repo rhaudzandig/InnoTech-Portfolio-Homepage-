@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: none !important;
+}
+.hero {
+    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient(rgba(28,41,62,0.6), rgba(46,153,202,0.4)), url('../images/hero-techno.jpg') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+footer {
+    background: #181f2c;
+    color: #eee;
+}
+
+
+#services, #portfolio, #contact {
+  scroll-margin-top: 90px; /* or set to your navbar height */
+}
+
+.contact-section {
+  background: #F4F9E4; /* Light mint - matches screenshot */
+  padding: 50px 0;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-container label {
+  display: block;
+  margin: 15px 0 6px 2px;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 13px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+  border: 1.5px solid #b5dbb3;
+  outline: none;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #e0eecb;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 40px;
+  margin-top: 10px;
+  font-size: 1.15rem;
+  cursor: pointer;
+  box-shadow: 0 2px 10px 0 rgba(50, 70, 31, 0.03);
+  transition: background 0.18s, box-shadow 0.18s;
+}
+
+.contact-btn:hover {
+  background: #d1eab3;
+  box-shadow: 0 4px 16px 0 rgba(50, 70, 31, 0.07);
+}
