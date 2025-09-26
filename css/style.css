@@ -32,11 +32,11 @@ footer {
 
 
 #services, #portfolio, #contact {
-  scroll-margin-top: 90px; /* or set to your navbar height */
+  scroll-margin-top: 90px;
 }
 
 .contact-section {
-  background: #F4F9E4; /* Light mint - matches screenshot */
+  background: #F4F9E4;
   padding: 50px 0;
 }
 
@@ -101,3 +101,4 @@ footer {
   background: #d1eab3;
   box-shadow: 0 4px 16px 0 rgba(50, 70, 31, 0.07);
 }
+
